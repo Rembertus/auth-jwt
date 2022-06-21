@@ -13,7 +13,7 @@ CREATE TABLE "user"."user" (
 	status int2 NOT NULL DEFAULT 0,
 	CONSTRAINT pk_user PRIMARY KEY (id)
 );
-
+```
 ## Instructions
 npm install  
 npm install bcrypt  // for encryption password  
@@ -31,7 +31,7 @@ Result
     "message": "Servicios ejecutandose!"
 }
 ```  
-### EndPoint Postman - Create User
+### EndPoint Postman - Create User  
 POST http://127.0.0.1:3010/api/users
 Body-Json
 ```javascript 
@@ -56,7 +56,7 @@ Result
     }
 }
 ```
-### EndPoint Postman - Login
+### EndPoint Postman - Login  
 POST http://127.0.0.1:3010/api/login
 Body-Json
 ```javascript 
@@ -77,7 +77,7 @@ Result
     }
 }
 ```
-### EndPoint Postman - Get Users List
+### EndPoint Postman - Get Users List  
 GET http://127.0.0.1:3010/api/users
 <strong>Headers</strong>
 KEY: Authorization
@@ -96,6 +96,6 @@ VALUE: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjkiLCJpYXQiOjE2NTU4Mj
 				...
 }
 ```
-  
+
 ## For Support
 - [Remberto Gonzales Cruz](rembertus@gmail.com)
