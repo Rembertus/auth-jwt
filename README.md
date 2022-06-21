@@ -32,7 +32,7 @@ Result
 }
 ```  
 ### EndPoint Postman - Create User  
-POST http://127.0.0.1:3010/api/users
+POST http://127.0.0.1:3010/api/users  
 Body-Json
 ```javascript 
 {
@@ -57,7 +57,7 @@ Result
 }
 ```
 ### EndPoint Postman - Login  
-POST http://127.0.0.1:3010/api/login
+POST http://127.0.0.1:3010/api/login  
 Body-Json
 ```javascript 
 {
@@ -78,7 +78,7 @@ Result
 }
 ```
 ### EndPoint Postman - Get Users List  
-GET http://127.0.0.1:3010/api/users
+GET http://127.0.0.1:3010/api/users  
 <strong>Headers</strong>
 KEY: Authorization
 VALUE: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjkiLCJpYXQiOjE2NTU4MjcyNjQsImV4cCI6MTY1NTg1NjA2NH0.QN_5RENZDk5hlaIKdEfOdR0b-D0Tx3D8-AoSUHSoIiI  
