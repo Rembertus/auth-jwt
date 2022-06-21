@@ -22,7 +22,7 @@ npm run start:dev
 ## Tests
 npm run test -t user.controller
 
-### EndPoint Postman - Status Verify Endpoint
+### EndPoint Postman - Status Verify
 GET http://127.0.0.1:3010/api/status  
 <strong>Result</strong>
 ```javascript 
