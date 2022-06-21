@@ -35,6 +35,6 @@ lerna-debug.log*
 !.vscode/extensions.json
 
 # environment
-.env.*
+# .env.*
 package-lock.json
 ecosystem.config.js
