@@ -1,5 +1,5 @@
 # auth-jwt
-Nest.JS, Authentication with JSON Web Tokens (JWT), Nest.JS, only Backend.
+Nest.JS, Authorization with JSON Web Tokens (JWT), Nest.JS, only Backend.
 
 ## Script for table in Postgres - Schema: "user",
 ```javascript 
